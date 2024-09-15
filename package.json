@@ -1,0 +1,38 @@
+{
+  "name": "watchband",
+  "version": "0.0.0",
+  "description": "An awesome package",
+  "keywords": [],
+  "homepage": "https://github.com/vinsonchuong/watchband",
+  "bugs": "https://github.com/vinsonchuong/watchband/issues",
+  "license": "MIT",
+  "author": "Vinson Chuong <vinsonchuong@gmail.com>",
+  "repository": "vinsonchuong/watchband",
+  "scripts": {
+    "test": "xo && ava",
+    "release": "semantic-release"
+  },
+  "type": "module",
+  "ava": {
+    "verbose": true
+  },
+  "xo": {
+    "prettier": true,
+    "space": 2,
+    "semicolon": false,
+    "rules": {
+      "import/no-anonymous-default-export": "off"
+    }
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "packageManager": "yarn@4.5.0",
+  "devDependencies": {
+    "ava": "^6.1.3",
+    "semantic-release": "^24.1.1",
+    "xo": "^0.59.3"
+  }
+}
