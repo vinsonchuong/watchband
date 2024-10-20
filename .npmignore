@@ -8,3 +8,6 @@ yarn.lock
 **/*.test.js
 **/test.js
 test/
+
+lib/fixtures/
+lib/web-component/server-rendering-fixtures/
