@@ -30,7 +30,11 @@
     }
   },
   "ava": {
-    "verbose": true
+    "verbose": true,
+    "timeout": "5m",
+    "files": [
+      "**/*.test.js"
+    ]
   },
   "xo": {
     "prettier": true,
