@@ -65,7 +65,7 @@
     "html-tag-names": "^2.1.0",
     "jsdom": "^25.0.0",
     "rxjs": "^7.8.1",
-    "signal-polyfill": "^0.1.2",
+    "signal-polyfill": "^0.2.1",
     "svg-tag-names": "^3.0.1"
   },
   "devDependencies": {

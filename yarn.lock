@@ -7948,10 +7948,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"signal-polyfill@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "signal-polyfill@npm:0.1.2"
-  checksum: 10c0/93096b9bd471ef1e500a1803e23a64837888bd9bfc894880d8341cefea6362d602b10d5ec21f2efaa5c45319927a734b479513efcedcd687491afbe5ec0cf379
+"signal-polyfill@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "signal-polyfill@npm:0.2.1"
+  checksum: 10c0/1403edbe4b5796b75289fcdc04714abfcffa6e34eeb58a428c79588039c8c39844005418d97ccaef6076fc112fabc53d1e596846875d403a8c39bc1715cb9148
   languageName: node
   linkType: hard
 
@@ -9039,7 +9039,7 @@ __metadata:
     puppet-strings-chrome: "npm:^2.0.5"
     rxjs: "npm:^7.8.1"
     semantic-release: "npm:^24.1.1"
-    signal-polyfill: "npm:^0.1.2"
+    signal-polyfill: "npm:^0.2.1"
     svg-tag-names: "npm:^3.0.1"
     xo: "npm:^0.59.3"
   languageName: unknown
