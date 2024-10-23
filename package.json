@@ -57,7 +57,7 @@
       "main"
     ]
   },
-  "packageManager": "yarn@4.5.0",
+  "packageManager": "yarn@4.5.1",
   "dependencies": {
     "camelcase": "^8.0.0",
     "clean-css": "^5.3.3",
