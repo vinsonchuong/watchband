@@ -76,6 +76,6 @@
     "puppet-strings": "^5.0.4",
     "puppet-strings-chrome": "^2.0.5",
     "semantic-release": "^24.1.1",
-    "xo": "^0.59.3"
+    "xo": "^0.60.0"
   }
 }
