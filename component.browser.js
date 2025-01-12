@@ -6,5 +6,5 @@ export * from './lib/signal/index.js'
 export * from './lib/observable/index.js'
 
 export function registerComponent(Component) {
-  return baseRegisterComponent(window, Component)
+  return baseRegisterComponent(globalThis, Component)
 }
