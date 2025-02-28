@@ -69,7 +69,7 @@
     "html-tag-names": "^2.1.0",
     "jsdom": "^26.0.0",
     "lodash": "^4.17.21",
-    "rxjs": "^7.8.1",
+    "rxjs": "^7.8.2",
     "signal-polyfill": "^0.2.2",
     "svg-tag-names": "^3.0.1"
   },
@@ -80,7 +80,7 @@
     "passing-notes-ui": "^1.6.1",
     "puppet-strings": "^5.0.4",
     "puppet-strings-chrome": "^2.0.5",
-    "semantic-release": "^24.2.1",
+    "semantic-release": "^24.2.3",
     "xo": "^0.60.0"
   }
 }
