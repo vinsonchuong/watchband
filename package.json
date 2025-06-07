@@ -20,6 +20,7 @@
       "node": "./html.node.js",
       "browser": "./html.browser.js"
     },
+    "./html/template": "./lib/html/template/index.js",
     "./component": {
       "node": "./component.node.js",
       "browser": "./component.browser.js"
