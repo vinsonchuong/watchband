@@ -9267,6 +9267,7 @@ __metadata:
     semantic-release: "npm:^24.2.3"
     signal-polyfill: "npm:^0.2.2"
     svg-tag-names: "npm:^3.0.1"
+    symbol-tree: "npm:^3.2.4"
     xo: "npm:^0.60.0"
   languageName: unknown
   linkType: soft

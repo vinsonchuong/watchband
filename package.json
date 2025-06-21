@@ -72,7 +72,8 @@
     "lodash": "^4.17.21",
     "rxjs": "^7.8.2",
     "signal-polyfill": "^0.2.2",
-    "svg-tag-names": "^3.0.1"
+    "svg-tag-names": "^3.0.1",
+    "symbol-tree": "^3.2.4"
   },
   "devDependencies": {
     "ava": "^6.2.0",
