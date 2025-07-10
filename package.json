@@ -77,7 +77,7 @@
   },
   "devDependencies": {
     "ava": "^6.4.0",
-    "parse5": "^7.3.0",
+    "parse5": "^8.0.0",
     "passing-notes": "^6.8.6",
     "passing-notes-ui": "^1.6.1",
     "puppet-strings": "^5.0.4",
