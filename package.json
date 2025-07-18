@@ -43,18 +43,22 @@
     "prettier": true,
     "space": 2,
     "semicolon": false,
-    "envs": [
-      "browser"
-    ],
+    "languageOptions": {
+      "globals": {
+        "document": "readonly"
+      }
+    },
     "rules": {
       "complexity": "off",
       "no-await-in-loop": "off",
       "no-negated-condition": "off",
+      "prefer-destructuring": "off",
       "ava/no-import-test-files": "off",
       "import/no-anonymous-default-export": "off",
-      "unicorn/prefer-query-selector": "off",
       "unicorn/prevent-abbreviations": "off",
-      "unicorn/prefer-dom-node-remove": "off"
+      "unicorn/prefer-dom-node-remove": "off",
+      "unicorn/prefer-query-selector": "off",
+      "unicorn/prefer-spread": "off"
     }
   },
   "release": {
@@ -76,13 +80,14 @@
     "symbol-tree": "^3.2.4"
   },
   "devDependencies": {
-    "ava": "^6.4.0",
-    "parse5": "^7.3.0",
+    "ava": "^6.4.1",
+    "parse5": "^8.0.0",
     "passing-notes": "^6.8.6",
     "passing-notes-ui": "^1.6.1",
     "puppet-strings": "^5.0.4",
     "puppet-strings-chrome": "^2.0.5",
-    "semantic-release": "^24.2.5",
-    "xo": "^0.60.0"
+    "semantic-release": "^24.2.7",
+    "typescript": "^5.8.3",
+    "xo": "^1.1.1"
   }
 }
