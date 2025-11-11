@@ -2215,10 +2215,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"camelcase@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "camelcase@npm:8.0.0"
-  checksum: 10c0/56c5fe072f0523c9908cdaac21d4a3b3fb0f608fb2e9ba90a60e792b95dd3bb3d1f3523873ab17d86d146e94171305f73ef619e2f538bd759675bc4a14b4bff3
+"camelcase@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "camelcase@npm:9.0.0"
+  checksum: 10c0/7171e1540b9b227cab9d59b7afa05174d14c10268171c18bdf2240eb1485ad6851592f1253ddc291f7ae34caad42c18206d339538965c67fb17fc995c0bb509b
   languageName: node
   linkType: hard
 
@@ -9890,7 +9890,7 @@ __metadata:
   resolution: "watchband@workspace:."
   dependencies:
     ava: "npm:^6.4.0"
-    camelcase: "npm:^8.0.0"
+    camelcase: "npm:^9.0.0"
     clean-css: "npm:^5.3.3"
     htm: "npm:^3.1.1"
     html-tag-names: "npm:^2.1.0"
