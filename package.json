@@ -76,7 +76,7 @@
     "symbol-tree": "^3.2.4"
   },
   "devDependencies": {
-    "ava": "^6.4.0",
+    "ava": "^7.0.0",
     "parse5": "^8.0.0",
     "passing-notes": "^6.8.6",
     "passing-notes-ui": "^1.6.1",
