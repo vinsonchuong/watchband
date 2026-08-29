@@ -11,3 +11,5 @@ test/
 
 lib/fixtures/
 lib/web-component/server-rendering-fixtures/
+
+examples/

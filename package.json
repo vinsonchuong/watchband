@@ -10,27 +10,15 @@
   "repository": "vinsonchuong/watchband",
   "scripts": {
     "test": "xo && ava",
+    "example": "pass-notes ./examples/$0/api.js",
     "release": "semantic-release"
   },
   "type": "module",
   "exports": {
     "./signal": "./lib/signal/index.js",
     "./observable": "./lib/observable/index.js",
-    "./html": {
-      "node": "./html.node.js",
-      "browser": "./html.browser.js"
-    },
-    "./html/template": "./lib/html/template/index.js",
-    "./component": {
-      "node": "./component.node.js",
-      "browser": "./component.browser.js"
-    },
-    "./component/ssr": {
-      "node": "./lib/web-component/server-rendering.js"
-    },
-    "./component/hot": {
-      "default": "./lib/web-component/hot-reloading.js"
-    }
+    "./html": "./lib/html/index.js",
+    "./web-component": "./lib/web-component/index.js"
   },
   "ava": {
     "verbose": true,
@@ -39,55 +27,81 @@
       "**/*.test.js"
     ]
   },
-  "xo": {
-    "prettier": true,
-    "space": 2,
-    "semicolon": false,
-    "languageOptions": {
-      "globals": {
-        "document": "readonly"
+  "xo": [
+    {
+      "prettier": true,
+      "space": 2,
+      "semicolon": false,
+      "languageOptions": {
+        "globals": {
+          "document": "readonly"
+        }
+      },
+      "rules": {
+        "complexity": "off",
+        "max-depth": "off",
+        "no-await-in-loop": "off",
+        "no-negated-condition": "off",
+        "no-unused-private-class-members": "off",
+        "no-warning-comments": "off",
+        "prefer-destructuring": "off",
+        "ava/no-import-test-files": "off",
+        "import/no-anonymous-default-export": "off",
+        "import-x/extensions": "off",
+        "unicorn/consistent-class-member-order": "off",
+        "unicorn/no-array-callback-reference": "off",
+        "unicorn/no-await-expression-member": "off",
+        "unicorn/no-global-object-property-assignment": "off",
+        "unicorn/no-top-level-side-effects": "off",
+        "unicorn/no-unreadable-object-destructuring": "off",
+        "unicorn/prefer-simple-sort-comparator": "off",
+        "promise/prefer-await-to-then": "off",
+        "unicorn/better-dom-traversing": "off",
+        "unicorn/max-nested-calls": "off",
+        "unicorn/prevent-abbreviations": "off",
+        "unicorn/prefer-dom-node-remove": "off",
+        "unicorn/prefer-query-selector": "off",
+        "unicorn/prefer-spread": "off"
       }
     },
-    "rules": {
-      "complexity": "off",
-      "no-await-in-loop": "off",
-      "no-negated-condition": "off",
-      "prefer-destructuring": "off",
-      "ava/no-import-test-files": "off",
-      "import/no-anonymous-default-export": "off",
-      "unicorn/prevent-abbreviations": "off",
-      "unicorn/prefer-dom-node-remove": "off",
-      "unicorn/prefer-query-selector": "off",
-      "unicorn/prefer-spread": "off"
+    {
+      "ignores": [
+        ".yarn"
+      ]
     }
-  },
+  ],
   "release": {
     "branches": [
       "main"
     ]
   },
-  "packageManager": "yarn@4.9.2",
+  "packageManager": "yarn@4.18.0",
   "dependencies": {
-    "camelcase": "^8.0.0",
     "clean-css": "^5.3.3",
+    "diff-sequences": "^29.6.3",
     "htm": "^3.1.1",
-    "html-tag-names": "^2.1.0",
-    "jsdom": "^26.1.0",
-    "lodash": "^4.17.21",
+    "jsdom": "^30.0.1",
+    "lodash": "^4.18.1",
+    "quick-lru": "^7.3.0",
     "rxjs": "^7.8.2",
-    "signal-polyfill": "^0.2.2",
-    "svg-tag-names": "^3.0.1",
-    "symbol-tree": "^3.2.4"
+    "signal-polyfill": "^0.2.2"
   },
   "devDependencies": {
-    "ava": "^6.4.1",
-    "parse5": "^8.0.0",
+    "ava": "^8.0.1",
+    "better-sqlite3": "12.9.0",
     "passing-notes": "^6.8.6",
-    "passing-notes-ui": "^1.6.1",
+    "passing-notes-rxdb": "^1.1.1",
+    "passing-notes-static": "^1.3.3",
+    "passing-notes-ui": "^1.6.2",
     "puppet-strings": "^5.0.4",
     "puppet-strings-chrome": "^2.0.5",
-    "semantic-release": "^24.2.7",
+    "quick-install": "^2.0.3",
+    "rxdb": "^16.21.1",
+    "semantic-release": "^25.0.9",
+    "sortablejs": "^1.15.7",
     "typescript": "^5.8.3",
-    "xo": "^1.1.1"
+    "uniqolor": "^1.1.1",
+    "xo": "^4.0.0",
+    "yjs": "^13.6.31"
   }
 }

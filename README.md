@@ -1,4 +1,5 @@
 # watchband
+
 [![npm](https://img.shields.io/npm/v/watchband.svg)](https://www.npmjs.com/package/watchband)
 [![CI Status](https://github.com/vinsonchuong/watchband/workflows/CI/badge.svg)](https://github.com/vinsonchuong/watchband/actions?query=workflow%3ACI)
 
@@ -7,6 +8,7 @@ Framework building blocks for Web Components
 Watchband is in active development. Documentation and examples are forthccoming.
 
 ## Usage
+
 Install [watchband](https://www.npmjs.com/package/watchband)
 by running:
 
@@ -15,6 +17,12 @@ yarn add watchband
 ```
 
 ## Random Ideas
+
+### Implementation Roadmap
+
+#### Smaller / Faster HTML Parser
+
+- [fb55/htmlparser2](https://github.com/fb55/htmlparser2)
 
 ### Relevant Specs and Proposals
 
