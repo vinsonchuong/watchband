@@ -1,19 +1,22 @@
 name: Dependabot
 on: pull_request_target
+permissions:
+  contents: write
 jobs:
   dependabot:
     if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: latest
           cache: yarn
       - run: yarn
       - run: yarn test
-      - run: gh pr merge --auto --rebase ${{ github.event.pull_request.html_url }}
+      - if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' }}
+        run: gh pr merge --auto --rebase ${{ github.event.pull_request.html_url }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -3,18 +3,21 @@ on:
   push:
     branches:
       - main
+permissions:
+  id-token: write
+  contents: write
 jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
+    - uses: actions/checkout@v6
+    - uses: actions/setup-node@v6
       with:
         node-version: latest
         cache: yarn
     - run: yarn
     - run: yarn test
-    - run: yarn release
+    - if: github.ref == 'refs/heads/main'
+      run: yarn release
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
