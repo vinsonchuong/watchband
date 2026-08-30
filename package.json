@@ -19,10 +19,12 @@
     "./observable": "./lib/observable/index.js",
     "./html": {
       "node": "./lib/html/index.node.js",
+      "workerd": "./lib/html/index.node.js",
       "default": "./lib/html/index.js"
     },
     "./web-component": {
       "node": "./lib/web-component/index.node.js",
+      "workerd": "./lib/html/index.node.js",
       "default": "./lib/web-component/index.js"
     }
   },
