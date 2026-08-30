@@ -17,8 +17,14 @@
   "exports": {
     "./signal": "./lib/signal/index.js",
     "./observable": "./lib/observable/index.js",
-    "./html": "./lib/html/index.js",
-    "./web-component": "./lib/web-component/index.js"
+    "./html": {
+      "node": "./lib/html/index.node.js",
+      "default": "./lib/html/index.js"
+    },
+    "./web-component": {
+      "node": "./lib/web-component/index.node.js",
+      "default": "./lib/web-component/index.js"
+    }
   },
   "ava": {
     "verbose": true,
