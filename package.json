@@ -96,7 +96,7 @@
   },
   "devDependencies": {
     "ava": "^8.0.1",
-    "better-sqlite3": "12.9.0",
+    "better-sqlite3": "13.0.3",
     "jsdom": "^30.0.1",
     "passing-notes": "^6.8.6",
     "passing-notes-rxdb": "^1.1.1",
