@@ -88,7 +88,7 @@
     "clean-css": "^5.3.3",
     "diff-sequences": "^29.6.3",
     "htm": "^3.1.1",
-    "jsdom": "^30.0.1",
+    "linkedom": "^0.18.13",
     "lodash": "^4.18.1",
     "quick-lru": "^7.3.0",
     "rxjs": "^7.8.2",
@@ -97,6 +97,7 @@
   "devDependencies": {
     "ava": "^8.0.1",
     "better-sqlite3": "12.9.0",
+    "jsdom": "^30.0.1",
     "passing-notes": "^6.8.6",
     "passing-notes-rxdb": "^1.1.1",
     "passing-notes-static": "^1.3.3",
