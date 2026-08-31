@@ -108,7 +108,7 @@
     "rxdb": "^17.5.0",
     "semantic-release": "^25.0.9",
     "sortablejs": "^1.15.7",
-    "typescript": "^5.8.3",
+    "typescript": "^7.0.2",
     "uniqolor": "^1.1.1",
     "xo": "^4.0.0",
     "yjs": "^13.6.31"
