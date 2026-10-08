@@ -144,6 +144,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:8.0.5":
+  version: 8.0.5
+  resolution: "@babel/runtime@npm:8.0.5"
+  checksum: 10c0/f4a310b6d2839a5350d6282805702040024b490b8456ca58de2abf5b329dba9ef19ece1d89304c39b1538177f311290512f88d7be4cc7925e4a9c9c00adab5b9
+  languageName: node
+  linkType: hard
+
 "@bramus/specificity@npm:^2.4.2":
   version: 2.4.2
   resolution: "@bramus/specificity@npm:2.4.2"
@@ -1469,6 +1476,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@noble/ciphers@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@noble/ciphers@npm:2.1.1"
+  checksum: 10c0/f02662723475a9785a2f7bcd6e8e12d4b5f77537154f5e21edb0fed398051fb1ae5057eb444987e1c65342f8632474f0143ea612a2dad49593d3358eb730a079
+  languageName: node
+  linkType: hard
+
+"@noble/curves@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@noble/curves@npm:2.0.1"
+  dependencies:
+    "@noble/hashes": "npm:2.0.1"
+  checksum: 10c0/e0b329eb9229e862d3b7203e0444bd479e9ecf2d5990181908dad416aab69106717ca696fc7b12ad0eb19d710f58c454646b27ce517a4298ab9abc89a9bdb6ee
+  languageName: node
+  linkType: hard
+
+"@noble/hashes@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@noble/hashes@npm:2.0.1"
+  checksum: 10c0/e81769ce21c3b1c80141a3b99bd001f17edea09879aa936692ae39525477386d696101cd573928a304806efb2b9fa751e1dd83241c67d0c84d30091e85c79bdb
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -2006,6 +2036,34 @@ __metadata:
   version: 2.3.0
   resolution: "@rviscomi/capo.js@npm:2.3.0"
   checksum: 10c0/a6c44bc5396284f8c449e5755f23f02044b70fba0a11ee7fc72e8730ba01363da235296e5255ea39facfb765c46161f1e8e5e0fc8a66f2fb18e5489c2a15c379
+  languageName: node
+  linkType: hard
+
+"@scure/base@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@scure/base@npm:2.0.0"
+  checksum: 10c0/7d999c7bebf053bb49cb706fdc6c5366737cff0f7f7518f52d32d7f7ad7b898904f03673648a2af5c4f22396f5c05f1d8bddbf010d6595052d07ba8163d506ad
+  languageName: node
+  linkType: hard
+
+"@scure/bip32@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@scure/bip32@npm:2.0.1"
+  dependencies:
+    "@noble/curves": "npm:2.0.1"
+    "@noble/hashes": "npm:2.0.1"
+    "@scure/base": "npm:2.0.0"
+  checksum: 10c0/7c7ceac0ded08942afc866fa8a2f6fe1ad90b09932fd11560418701a965efe26e0cdf29ea87d18bc0bd847d34541c2ba1afed08794e273eafac8ab2ad23d012d
+  languageName: node
+  linkType: hard
+
+"@scure/bip39@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@scure/bip39@npm:2.0.1"
+  dependencies:
+    "@noble/hashes": "npm:2.0.1"
+    "@scure/base": "npm:2.0.0"
+  checksum: 10c0/ed8a0788bca006a6e4a647ed67c4c973b1deeaee5d62ddc168c9521c33e3a66cf5707c8aadcd0b6f9e3e41c3f763a985d913f4abc3813963497238e73ce166b6
   languageName: node
   linkType: hard
 
@@ -6566,12 +6624,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-ws@npm:6.2.1":
-  version: 6.2.1
-  resolution: "graphql-ws@npm:6.2.1"
+"graphql-ws@npm:6.3.0":
+  version: 6.3.0
+  resolution: "graphql-ws@npm:6.3.0"
   peerDependencies:
     "@fastify/websocket": ^10 || ^11
-    crossws: ~0.3
+    crossws: ~0.3 || ~0.4
     graphql: ^15.10.1 || ^16 || ^17
     ws: ^8
   peerDependenciesMeta:
@@ -6581,7 +6639,7 @@ __metadata:
       optional: true
     ws:
       optional: true
-  checksum: 10c0/156f8905c1b7020897fa68c093c2e20e64e4b1c12b304e1de414f88a246fb0cf91d612712cdac394e35ba3f24710bd369fd125de9e26e4621e296f3d893905f7
+  checksum: 10c0/a4fee977feb9df0ab0cf293cdbbf3d623bc74ffdd959f77a3c69ab037e70988572962ec2bcafc41bb31cc3e0a134fb86750ca984a717ae3f0d293fc74b7cf2e9
   languageName: node
   linkType: hard
 
@@ -7442,10 +7500,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-base64@npm:3.9.2":
-  version: 3.9.2
-  resolution: "js-base64@npm:3.9.2"
-  checksum: 10c0/59bfa7f05953aa3e630812d3fcf96ea56597100b4baf367fdaacb696712e5b774cbb95f90185f88cf0ccbb864fcf62b1f75e8eed283214076d6bec8952f621dc
+"js-base64@npm:3.9.4":
+  version: 3.9.4
+  resolution: "js-base64@npm:3.9.4"
+  checksum: 10c0/c1a76236bb2531fa321863b87eceabb90f070ef196f3a97028d6f710c941bdfc453eb8c75bc2412453db163fe4ac5c748a40a63547a264420ce0e67b871b228d
   languageName: node
   linkType: hard
 
@@ -9380,6 +9438,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nostr-tools@npm:2.25.2":
+  version: 2.25.2
+  resolution: "nostr-tools@npm:2.25.2"
+  dependencies:
+    "@noble/ciphers": "npm:2.1.1"
+    "@noble/curves": "npm:2.0.1"
+    "@noble/hashes": "npm:2.0.1"
+    "@scure/base": "npm:2.0.0"
+    "@scure/bip32": "npm:2.0.1"
+    "@scure/bip39": "npm:2.0.1"
+    nostr-wasm: "npm:0.1.0"
+  peerDependencies:
+    typescript: ">=5.0.0"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 10c0/6a664d85b120f1cb12231a0e4e9f8ceb42f1856a26dceaf84ab18e94392072f16ad4cc395026fce283c0eb79c6be4ec66fc030ba30369f41a9ccbe4d6602efa9
+  languageName: node
+  linkType: hard
+
+"nostr-wasm@npm:0.1.0":
+  version: 0.1.0
+  resolution: "nostr-wasm@npm:0.1.0"
+  checksum: 10c0/a8a674c0e038d5f790840e442a80587f6eca0810e01f3101828c34517f5c3238f510ef49f53b3f596e8effb32eb64993c57248aa25b9ccfa9386e4421c837edb
+  languageName: node
+  linkType: hard
+
 "npm-audit-report@npm:^7.0.0":
   version: 7.0.0
   resolution: "npm-audit-report@npm:7.0.0"
@@ -10936,10 +11021,10 @@ __metadata:
   linkType: hard
 
 "rxdb@npm:^17.5.0":
-  version: 17.5.0
-  resolution: "rxdb@npm:17.5.0"
+  version: 17.6.0
+  resolution: "rxdb@npm:17.6.0"
   dependencies:
-    "@babel/runtime": "npm:7.29.7"
+    "@babel/runtime": "npm:8.0.5"
     "@types/simple-peer": "npm:9.11.9"
     "@types/ws": "npm:8.18.1"
     ajv: "npm:8.20.0"
@@ -10953,15 +11038,16 @@ __metadata:
     event-reduce-js: "npm:6.0.0"
     get-graphql-from-jsonschema: "npm:8.1.0"
     graphql: "npm:17.0.2"
-    graphql-ws: "npm:6.2.1"
+    graphql-ws: "npm:6.3.0"
     is-my-json-valid: "npm:2.20.6"
-    js-base64: "npm:3.9.2"
+    js-base64: "npm:3.9.4"
     jsonschema-key-compression: "npm:1.7.0"
     mingo: "npm:7.2.4"
+    nostr-tools: "npm:2.25.2"
     oblivious-set: "npm:2.0.0"
     simple-peer: "npm:9.11.1"
-    ws: "npm:8.21.3"
-    z-schema: "npm:12.4.1"
+    ws: "npm:8.22.0"
+    z-schema: "npm:12.4.6"
   peerDependencies:
     "@angular/core": "*"
     "@preact/signals-core": "*"
@@ -10986,7 +11072,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: 10c0/c92f4e5dcb0b1eb24cd005f774b1bed7bc8163eed49388d13870cbd5dc2ca29e31b7920b1d503ff62f926b7ef39a3a6e38b534bed472aeadcc590c81736d4570
+  checksum: 10c0/c4addfbe84c00464a5033c682f0ffb6b8726cbd2c18707aeeb15cdaf75d990c5169beb0712cb63167a543862e1af2692b324b8068ed6038d5febef4a4fdef6d2
   languageName: node
   linkType: hard
 
@@ -12972,9 +13058,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:8.21.3":
-  version: 8.21.3
-  resolution: "ws@npm:8.21.3"
+"ws@npm:8.22.0":
+  version: 8.22.0
+  resolution: "ws@npm:8.22.0"
   peerDependencies:
     bufferutil: ^4.0.1
     utf-8-validate: ">=5.0.2"
@@ -12983,7 +13069,7 @@ __metadata:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: 10c0/7b28dc2863ea0e2cece68d142a3eee90361021b73f750431e6d8076bb7dede5fdfdb75b3d29534b62f411261147b76b1bc80fb5cc63ab0aabd467280e85b22e0
+  checksum: 10c0/7304d14ef38898dd366a528a85e2da389c4eebf30f4ce8a007bd2dce6025f9b619cefe44fe2354f0bad0ec541b1c9a4da06a3f3e046ab56f01fd52d5784ecfb2
   languageName: node
   linkType: hard
 
@@ -13188,9 +13274,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"z-schema@npm:12.4.1":
-  version: 12.4.1
-  resolution: "z-schema@npm:12.4.1"
+"z-schema@npm:12.4.6":
+  version: 12.4.6
+  resolution: "z-schema@npm:12.4.6"
   dependencies:
     commander: "npm:^15.0.0"
     punycode: "npm:^2.3.1"
@@ -13201,7 +13287,7 @@ __metadata:
       optional: true
   bin:
     z-schema: bin/z-schema
-  checksum: 10c0/9ad41d0b3ec5007d241f2df37d589c67bfb1dfae90e0769877bea08ee0a43d0d4012ab223ca1c60f0e7f4819600b38e15dac1861822cd63bd706295a8b36d8b8
+  checksum: 10c0/c71f51a1008c435e1fcd816c489888cacf891b60e56aacaa3d5fd0035705abd4d806a201327d91e5b5d30b2c0b2049b1c08595b47537790187283842d73a6e03
   languageName: node
   linkType: hard
 
