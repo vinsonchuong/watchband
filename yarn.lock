@@ -11315,9 +11315,9 @@ __metadata:
   linkType: hard
 
 "signal-polyfill@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "signal-polyfill@npm:0.2.2"
-  checksum: 10c0/485b0e66d93961454af32e7fbff88130138dffcbf7bce35e5c873d760ceb9ce33a125dd63cc59454c739c43246980515b1162cbe0ebc975a974ee036fb58d18a
+  version: 0.2.3
+  resolution: "signal-polyfill@npm:0.2.3"
+  checksum: 10c0/474ddd2ed8c8661c3106436bc580ff27c55e4902a5aa93c59243ddbc452cddfdd0cdedf2879b3989dea031698617dd1c656abab32d109054f990bea10aa498b1
   languageName: node
   linkType: hard
 
