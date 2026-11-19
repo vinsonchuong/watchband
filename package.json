@@ -111,7 +111,7 @@
     "puppet-strings-chrome": "^2.0.5",
     "quick-install": "^2.0.3",
     "rxdb": "^17.5.0",
-    "semantic-release": "^25.0.9",
+    "semantic-release": "^26.0.1",
     "sortablejs": "^1.15.7",
     "typescript": "^7.0.2",
     "uniqolor": "^1.1.1",
